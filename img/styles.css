@@ -1,0 +1,231 @@
+ *{
+    /* กำหนด forn */
+    font-family: Arial, Helvetica, sans-serif;
+    /* กำหนดlink style */
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* -----------------menu---------------- */
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #E5C9D7;
+    overflow: hidden;
+}
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 10px;
+    padding: 14px 16px;
+
+
+}
+.menu{
+    display: flex;
+    overflow: hidden;
+    
+}
+.menu li{
+    float: left;
+    color: black;
+    list-style: none;
+    margin-top: 10px;
+    padding: 14px 16px;
+}
+.menu a:hover{
+    background-color: #C48CB3;
+
+
+}
+.menu a:active{
+    background-color: #83A6CE;
+    text-decoration: none;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    font-size: 30px;
+}
+
+/* ---------------dropdownmenu------------------- */
+/* navbar-container */
+.navbar{
+    overflow: hidden;
+    background-color: rgb(146, 104, 104);
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+/* -------------------- */
+.navbar a{
+    float: left;
+    font: size 14px;
+    color: rgb(189, 142, 194);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* ------------------------- */
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+/* ------------------------- */
+.dropdown .dropbtn{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: brown;
+    padding: 14px 15px;
+    background-color: inherit;
+    margin: 0;
+}
+.nevbar a:hover, .dropdown:hover .dropdown{
+    background-color: #C48CB3;
+}
+ .dropdown-content{
+     display: none;
+     position: absolute;
+     background-color: #83A6CE;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px ;
+     z-index: 1;
+
+ }
+
+/* ------------------------ */
+.dropdown-content a{
+    float: none;
+    color: #C48CB3;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: aquamarine;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* ตกเเต่งหัวตาราง */
+.styled-table {
+    width: 99.99%;
+    background-color: rgb(255, 255, 255); /* ทำเส้นขอบของเซลล์เชื่อมกัน */
+    color: rgb(2, 2, 2);/* สีของตัวอักษรของหัวข้อ */
+    text-align:center;/* จัดตัวอักษรใช้ชิดซ้าย */
+    padding: 12px 15px;/* เพิ่ม padding ด้านในของหัวข้อ */
+    font-size: 16px;/*ขนาดตัวอักษร  */
+}
+
+/* ตกเเต่งเเถวของตาราง */
+.styled-table td {
+
+ text-align:center;
+ padding: 12px 18px;
+ border-collapse: collapse;
+ border-bottom: 1px solid color rgb(5, 5, 5);
+ font-size: 16px;
+
+}
+/* เปลี่ยนสีเมื่อวางเม้าส์ */
+.styled-table tr :hover{
+    background-color: rgb(180, 162, 162);
+
+}
+
+/* เพิ่มเส้นขอบนอกตาราง */
+.styled-table , .styled-table th, .styled-table td{
+    border: 1px solid color rgb(24, 4, 4);
+
+}
+
+/* ------------โปรไฟล์---------- */
+.title {
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+.pic {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.pic-item {
+    max-width: 1140px;
+    justify-content: center;
+    text-align: center;
+}
+.pic-item img {
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #83A6CE;
+    align-items: center;
+
+
+}
+
+.pich-item p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: palevioletred;
+    justify-content: center;
+}
+.content {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 1px #C48CB3  solid;   */
+    max-width: 1140px;
+    margin:  0 auto;
+    column-gap: 16px;
+    border-collapse: collapse;
+
+
+
+
+}
+.content-item1 {
+    justify-content: center;
+    /* border: 1px #C48CB3 solid; */
+    padding: 12px;
+    background-color: #E5C9D7;
+    color: black;
+    box-shadow: 0 0 10px #83A6CE;
+    border-radius: 30px;
+
+}
+.content-item2 {
+    justify-content: center;
+    /* border: 1px #C48CB3 solid; */
+    padding: 12px;
+    background-color: #E5C9D7;
+    color: black;
+    box-shadow: 0 0 10px #83A6CE;
+    border-radius: 30px;
+
+
+}
+.content-item3 {
+    justify-content: center;
+    /* border: 1px #C48CB3 solid; */
+    padding: 12px;
+    background-color: #E5C9D7;
+    color: black;
+    box-shadow: 0 0 10px #83A6CE;
+    border-radius: 30px;
+
+
+}
