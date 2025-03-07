@@ -797,7 +797,7 @@ footer {
     gap: 20px; /* กำหนดระยะห่างระหว่างบล็อก */
     padding: 20px;
     flex-direction: column;
-    align-items: center;
+    align-items: center ;
 }
 
 /* สไตล์สำหรับการ์ดแต่ละบล็อก */
@@ -911,3 +911,4 @@ footer {
         background-color: #555;
     }
     
+
